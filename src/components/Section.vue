@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div id="section-container">
     <CardMix height="225" heightFt="45" colorText="#69A3FF" />
@@ -5,7 +6,6 @@
     <CardMix height="225" heightFt="45" colorText="#ED1946" />
   </div>
 </template>
-
 <script>
 import CardMix from "@/components/CardMix.vue";
 import axios from "axios";
@@ -25,14 +25,12 @@ export default {
     CardMix,
   },
   methods: {
-    async fetchWeather(e) {
-      if (true) {
-        this.query = this.cities[0];
-        let response = await axios.get(
-          `${this.url_base}weather?q=${this.query}&units=metric&appid=${this.api_key}`
-        );
-        this.setResults(response.data);
-      }
+    async fetchWeather() {
+      this.query = this.cities[0];
+      let response = await axios.get(
+        `${this.url_base}weather?q=${this.query}&units=metric&appid=${this.api_key}`
+      );
+      this.setResults(response.data);
     },
     setResults(returnedResponse) {
       this.weather = returnedResponse;
