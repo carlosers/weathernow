@@ -1,0 +1,199 @@
+[{
+  "data": {
+    "coord": {
+      "lon": -51.7216,
+      "lat": 64.1835
+    },
+    "weather": [{
+      "id": 500,
+      "main": "Rain-chuva",
+      "description": "light rain",
+      "icon": "10d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 7.34,
+      "feels_like": 5.26,
+      "temp_min": 6.6,
+      "temp_max": 7.34,
+      "pressure": 1011,
+      "humidity": 93
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 3.09,
+      "deg": 360
+    },
+    "rain": {
+      "1h": 0.42
+    },
+    "clouds": {
+      "all": 90
+    },
+    "dt": 1624742405,
+    "sys": {
+      "type": 1,
+      "id": 86,
+      "country": "GL",
+      "sunrise": 1624683413,
+      "sunset": 1624759350
+    },
+    "timezone": -7200,
+    "id": 3421319,
+    "name": "Nuuk",
+    "cod": 200
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "476",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "url": "http://api.openweathermap.org/data/2.5/weather?q=Nuuk, GL&units=metric&appid=b2e9816a86844d31288e178d11c0d798",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1
+  },
+  "request": "[object XMLHttpRequest]"
+}, {
+  "data": {
+    "coord": {
+      "lon": -49.5917,
+      "lat": -28.015
+    },
+    "weather": [{
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 15.86,
+      "feels_like": 16.03,
+      "temp_min": 15.86,
+      "temp_max": 15.86,
+      "pressure": 1015,
+      "humidity": 97,
+      "sea_level": 1015,
+      "grnd_level": 911
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.99,
+      "deg": 337,
+      "gust": 9.99
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1624742609,
+    "sys": {
+      "type": 2,
+      "id": 2038862,
+      "country": "BR",
+      "sunrise": 1624702205,
+      "sunset": 1624739536
+    },
+    "timezone": -10800,
+    "id": 3445709,
+    "name": "Urubici",
+    "cod": 200
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "525",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "url": "http://api.openweathermap.org/data/2.5/weather?q=Urubici, BR&units=metric&appid=b2e9816a86844d31288e178d11c0d798",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1
+  },
+  "request": "[object XMLHttpRequest]"
+}, {
+  "data": {
+    "coord": {
+      "lon": 36.8167,
+      "lat": -1.2833
+    },
+    "weather": [{
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 16.65,
+      "feels_like": 16.69,
+      "temp_min": 16.65,
+      "temp_max": 16.65,
+      "pressure": 1017,
+      "humidity": 89,
+      "sea_level": 1017,
+      "grnd_level": 837
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.42,
+      "deg": 65,
+      "gust": 4.42
+    },
+    "clouds": {
+      "all": 87
+    },
+    "dt": 1624742452,
+    "sys": {
+      "type": 2,
+      "id": 2006176,
+      "country": "KE",
+      "sunrise": 1624764857,
+      "sunset": 1624808225
+    },
+    "timezone": 10800,
+    "id": 184745,
+    "name": "Nairobi",
+    "cod": 200
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "520",
+    "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+    "url": "http://api.openweathermap.org/data/2.5/weather?q=Nairobi, KE&units=metric&appid=b2e9816a86844d31288e178d11c0d798",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1
+  },
+  "request": "[object XMLHttpRequest]"
+}]

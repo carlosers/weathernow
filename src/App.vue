@@ -28,7 +28,7 @@ export default {
 body {
   background-color: #f1f1f1;
   margin: 0 0 30px 30px;
-  min-width: 375px;
+  // min-width: 375px;
 }
 
 #app {
@@ -36,19 +36,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 180px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 @media All and (max-width:280px){
   body {
-    width: 200px;
+    // max-width: 100px;
     display: flex;
     flex-direction: column;
-    background-color: blue;
   }
 }
 

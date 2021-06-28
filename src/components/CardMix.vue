@@ -1,20 +1,20 @@
 <template>
   <div class="cardmix" :style="cssVars">
     <div class="titcard">
-      <p>Urubici, BR</p>
+      <p>{{ city }}</p>
     </div>
     <div class="headercard"></div>
     <div class="sectcard" :style="txtCssVars">
-      <p>20<span>°</span></p>
+      <p>{{ temp }}<span>°</span></p>
     </div>
     <div class="footercard" :style="ftCssVars">
       <div class="extDt" v-if="extraData">
         <p>HUMIDITY</p>
         <p>PRESSURE</p>
-        <p>75<span>%</span></p>
-        <p>892<span>hpa</span></p>
+        <p>{{ humid }}<span>%</span></p>
+        <p>{{ press }}<span>hpa</span></p>
       </div>
-      <p>Updated at 02:48:27 PM</p>
+      <p>{{ updateCard }}</p>
     </div>
   </div>
 </template>
@@ -23,9 +23,29 @@
 export default {
   name: "CardMix",
   props: {
+    updateCard: {
+      type: String,
+      default: "",
+    },
     extraData: {
       type: Boolean,
       default: false,
+    },
+    nameCity: {
+      type: String,
+      default: "cidade",
+    },
+    tempCity: {
+      type: Number,
+      default: 0,
+    },
+    humidCity: {
+      type: Number,
+      default: 0,
+    },
+    pressCity: {
+      type: Number,
+      default: 0,
     },
     colorText: {
       type: String,
@@ -51,6 +71,14 @@ export default {
       type: String,
       default: "18",
     },
+  },
+  data: function () {
+    return {
+      city: this.nameCity,
+      temp: this.tempCity,
+      humid: this.humidCity,
+      press: this.pressCity,
+    };
   },
   computed: {
     cssVars() {
