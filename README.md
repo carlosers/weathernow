@@ -4,6 +4,8 @@ Projeto weathernow foi idealizado para avaliação de um desafio prático realiz
 
 O objetivo do projeto é apresentar uma aplicação que apresente a temperatura de três cidades específicas seguindo fielmente o mockup idealizado pelo time desafiante, além dos critérios apresentados no documento do desafio foi estabelecido a obrigação de ser criado no framework vue.js.
 
+O projeto poderá ser testado no link: https://amazing-liskov-4b51bd.netlify.app
+
 O projeto foi construído usando o VUE-CLI, portanto, para utiliza-lo será necessário a execução de alguns passos, a saber:
 
 * Download do projeto através do git clone ou arquivo .zip
