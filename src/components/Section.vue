@@ -1,6 +1,7 @@
 <template>
   <div id="section-container">
     <div class="unitCard" v-for="unitcd in manifest" :key="unitcd.id">
+      <!-- component to assemble the card with the climate data of the cities -->
       <CardMix
         :height="unitcd.mheight"
         :heightFt="unitcd.mheightFt"
@@ -13,8 +14,7 @@
         :pressCity="weather[unitcd.id].data.main.pressure"
         :updateCard="todaysDate('H')"
         v-if="typeof weather != 'undefined'"
-      >
-      </CardMix>
+      />
     </div>
   </div>
 </template>

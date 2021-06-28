@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- components that assemble the header and content section  -->
     <HeaderFix />
     <Section />
   </div>
